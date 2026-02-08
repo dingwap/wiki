@@ -4,6 +4,10 @@ A repository for notes and guides I create for myself when I'm learning new stuf
 
 The main areas covered at present are:
 
+## [Ansible](/Ansible/readme.md)
+
+Basics about setting up Ansible on Linux primarily.
+
 ## [Powershell](/Powershell/readme.md)
 
 Intro stuff, guides and walkthroughs for Powershell-related activities.
