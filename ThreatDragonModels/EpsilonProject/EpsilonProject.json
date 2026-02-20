@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "81ba6565-e60d-436a-aedd-fee004cfb1cb",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Microsoft\nTeams",
@@ -180,6 +180,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -263,7 +264,6 @@
               ]
             },
             "id": "eb017b49-4f0b-4e22-9d7a-070f4e2b22e6",
-            "zIndex": 2,
             "data": {
               "type": "tm.Store",
               "name": "Entra",
@@ -301,6 +301,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -384,7 +385,6 @@
               ]
             },
             "id": "de6f0c50-8151-4627-8b86-b591ca9ecef7",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Internal\nuser",
@@ -418,6 +418,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -501,7 +502,6 @@
               ]
             },
             "id": "1d9d9ce1-2335-4f6a-84c1-a3d7725b74e0",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "AuthN\nService",
@@ -567,6 +567,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -650,7 +651,6 @@
               ]
             },
             "id": "fa57ece9-e116-489e-b90c-b54ee1b6ba86",
-            "zIndex": 5,
             "data": {
               "type": "tm.Store",
               "name": "SharePoint",
@@ -908,6 +908,130 @@
             "target": {
               "cell": "81ba6565-e60d-436a-aedd-fee004cfb1cb",
               "port": "21fd3c37-b5d5-461d-9bbb-8dcf990ecce4"
+            }
+          },
+          {
+            "position": {
+              "x": 380,
+              "y": -180
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "External users"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "0e4a8f72-f3db-4bfb-aa04-11ba85465de0"
+                },
+                {
+                  "group": "right",
+                  "id": "07548bb0-fd3e-4cf5-985b-3cc006e99c33"
+                },
+                {
+                  "group": "bottom",
+                  "id": "d6246b23-23dd-4127-8978-5819b37e5954"
+                },
+                {
+                  "group": "left",
+                  "id": "030eb87e-4693-4734-bb1d-e15b15cc9def"
+                }
+              ]
+            },
+            "id": "4874363e-1e23-4301-823f-f9c2bc74bb44",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Actor",
+              "name": "External users",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ]
