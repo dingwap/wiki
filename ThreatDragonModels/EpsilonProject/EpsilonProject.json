@@ -1035,9 +1035,18 @@
             }
           }
         ]
+      },
+      {
+        "id": 1,
+        "title": "Epsilon-Stride",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.5.0",
+        "cells": []
       }
     ],
-    "diagramTop": 1,
+    "diagramTop": 2,
     "reviewer": "Erlich Bachmann",
     "threatTop": 2
   }
