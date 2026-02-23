@@ -2,8 +2,8 @@
   "version": "2.5.0",
   "summary": {
     "title": "GammaProject",
-    "owner": "",
-    "description": "",
+    "owner": "Pete Dingwall",
+    "description": "This is the 3rd key system for the Widgets organisation",
     "id": 0
   },
   "detail": {
@@ -983,7 +983,7 @@
       }
     ],
     "diagramTop": 1,
-    "reviewer": "",
+    "reviewer": "Gilfoyle",
     "threatTop": 1
   }
 }
