@@ -2,8 +2,8 @@
   "version": "2.5.0",
   "summary": {
     "title": "EpsilonProject",
-    "owner": "",
-    "description": "",
+    "owner": "Pete Dingwall",
+    "description": "This is the Epsilon service, it is the 5th key service within the Widgets organisation and is used to gather key information from our customers.\n\nCustomers can access their own information via a reporting portal.",
     "id": 0
   },
   "detail": {
@@ -1038,7 +1038,7 @@
       }
     ],
     "diagramTop": 1,
-    "reviewer": "",
+    "reviewer": "Erlich Bachmann",
     "threatTop": 2
   }
 }
