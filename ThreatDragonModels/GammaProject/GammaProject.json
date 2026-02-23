@@ -33,8 +33,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "8ec0745f-4ace-444a-95dc-def0dc8abc51",
             "zIndex": -1,
+            "id": "8ec0745f-4ace-444a-95dc-def0dc8abc51",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Widgets organisation",
@@ -59,8 +59,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "940cbb17-8e2c-4531-970d-8a59184b34b5",
             "zIndex": -1,
+            "id": "940cbb17-8e2c-4531-970d-8a59184b34b5",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Guest organisation",
@@ -93,6 +93,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -176,7 +177,6 @@
               ]
             },
             "id": "1b6c22bf-d0b7-4f0a-b8da-22b88bd356b9",
-            "zIndex": 1,
             "data": {
               "type": "tm.Store",
               "name": "Entra ID",
@@ -214,6 +214,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -297,7 +298,6 @@
               ]
             },
             "id": "98c58c65-ca6a-4cdc-b322-6bff643bf87f",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Internal User",
@@ -331,6 +331,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -414,7 +415,6 @@
               ]
             },
             "id": "60ead05f-f7de-43ed-beb8-ac5c8f209091",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "SharePoint\nOnline",
@@ -431,6 +431,8 @@
             },
             "tools": {
               "items": [
+                "boundary",
+                "button-remove",
                 "boundary",
                 "button-remove"
               ],
@@ -626,116 +628,6 @@
             "target": {
               "cell": "81a3fcb2-1542-4e32-b66a-72f9cd8402d9",
               "port": "268e87aa-2460-43a2-b5a8-13f5c44fadd8"
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
             }
           },
           {
@@ -759,6 +651,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -842,7 +735,6 @@
               ]
             },
             "id": "9706f686-16dc-4968-b1c8-183d2080994b",
-            "zIndex": 11,
             "data": {
               "type": "tm.Actor",
               "name": "External user",
@@ -879,6 +771,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -962,7 +855,6 @@
               ]
             },
             "id": "81a3fcb2-1542-4e32-b66a-72f9cd8402d9",
-            "zIndex": 12,
             "data": {
               "type": "tm.Store",
               "name": "Entra ID",
