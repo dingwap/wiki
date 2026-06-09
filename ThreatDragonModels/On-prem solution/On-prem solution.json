@@ -1492,17 +1492,7 @@
                 "x": 760,
                 "y": 590
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "position": {
@@ -1668,7 +1658,13 @@
             "target": {
               "cell": "fdf316eb-b47c-4e95-baff-785c977b5f53",
               "port": "a25887db-a4b5-443e-bfca-26562cb6aa69"
-            }
+            },
+            "vertices": [
+              {
+                "x": 390,
+                "y": 390
+              }
+            ]
           },
           {
             "shape": "flow",
