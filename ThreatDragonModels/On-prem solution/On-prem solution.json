@@ -145,6 +145,7 @@
               "containedElements": [
                 "a77303d1-7aad-40a1-9419-25fb5307ad6b",
                 "0cbe61a1-1fda-41f4-ba57-bac7b00a1218",
+                "aa7656f5-ae8b-44bc-80b8-9dbef11981a1",
                 "fdf316eb-b47c-4e95-baff-785c977b5f53",
                 "f0946eed-9e42-40f2-99fb-06e7241a91e6",
                 "942a581c-5806-4aa6-834d-19a797397973",
@@ -222,6 +223,34 @@
               ]
             },
             "zIndex": -1
+          },
+          {
+            "position": {
+              "x": 567,
+              "y": 647
+            },
+            "size": {
+              "width": 128,
+              "height": 60
+            },
+            "attrs": {
+              "label": {
+                "text": "Client VLAN"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "aa7656f5-ae8b-44bc-80b8-9dbef11981a1",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Client VLAN",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            }
           },
           {
             "position": {
