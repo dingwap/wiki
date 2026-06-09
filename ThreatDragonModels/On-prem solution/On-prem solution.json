@@ -3,7 +3,7 @@
   "summary": {
     "title": "On-prem solution",
     "owner": "Pete Dingwall",
-    "description": "",
+    "description": "An on-premises hosted web application and MS SQL database, deployed in a resilient configuration. The web application provides the front-door web commerce platform for Widgets Inc.",
     "id": 0
   },
   "detail": {
@@ -2655,7 +2655,7 @@
       }
     ],
     "diagramTop": 2,
-    "reviewer": "",
+    "reviewer": "Erlich Bachmann",
     "threatTop": 21
   }
 }
