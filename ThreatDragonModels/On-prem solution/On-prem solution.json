@@ -42,8 +42,8 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "b2c92f03-a354-4fdf-8ae2-8cdd63c16293",
                 "f48f70bf-9a4a-433e-a31a-15cd93230dbf",
+                "b2c92f03-a354-4fdf-8ae2-8cdd63c16293",
                 "85fd9387-bb3f-41d4-9496-1a69d6d2e8c0"
               ],
               "containedElements": [
@@ -145,8 +145,8 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "b2c92f03-a354-4fdf-8ae2-8cdd63c16293",
                 "f48f70bf-9a4a-433e-a31a-15cd93230dbf",
+                "b2c92f03-a354-4fdf-8ae2-8cdd63c16293",
                 "85fd9387-bb3f-41d4-9496-1a69d6d2e8c0"
               ],
               "containedElements": [
@@ -191,8 +191,8 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "827fe1b9-39d2-4e20-96c9-fba557fef429",
-                "b2c92f03-a354-4fdf-8ae2-8cdd63c16293",
                 "f4712c63-4911-40aa-9300-5f177b906937",
+                "b2c92f03-a354-4fdf-8ae2-8cdd63c16293",
                 "85fd9387-bb3f-41d4-9496-1a69d6d2e8c0"
               ],
               "containedElements": [
@@ -1057,7 +1057,27 @@
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "132a9f0b-ae69-422c-9735-a5f67825b97c",
+                  "title": "Inappropriate access to data",
+                  "status": "Mitigated",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Collecting accessible data and/or processed output from the application",
+                  "mitigation": "MS SQL provides granular access to users and administrators.\nAccess is provided based on least-privilege.\nMFA is used to secure access to privileged accounts.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 2,
+                "denialOfService": 0
+              }
             }
           },
           {
@@ -1118,56 +1138,6 @@
                 "y": 570
               }
             ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "DF-05",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": true,
-              "isPublicNetwork": true,
-              "protocol": "HTTPS",
-              "threats": [],
-              "trustBoundaryIds": [
-                "f71ea617-8734-4a6e-8bf4-b46f14c0c9f0",
-                "62160e52-c4dd-42de-a154-14183ab884d4",
-                "a77303d1-7aad-40a1-9419-25fb5307ad6b"
-              ]
-            },
-            "labels": [
-              "DF-05"
-            ],
-            "id": "b2c92f03-a354-4fdf-8ae2-8cdd63c16293",
-            "source": {
-              "cell": "96b13f28-dfce-49a4-99ad-800f0831a781",
-              "port": "edd2109c-89ea-424d-a17b-c8b0dfab3562"
-            },
-            "target": {
-              "cell": "fdf316eb-b47c-4e95-baff-785c977b5f53",
-              "port": "99300bd6-0078-4ded-ac56-c34814e7a45f"
-            }
           },
           {
             "shape": "flow",
@@ -1528,6 +1498,56 @@
                 "y": 690
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF-05",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "HTTPS",
+              "threats": [],
+              "trustBoundaryIds": [
+                "f71ea617-8734-4a6e-8bf4-b46f14c0c9f0",
+                "62160e52-c4dd-42de-a154-14183ab884d4",
+                "a77303d1-7aad-40a1-9419-25fb5307ad6b"
+              ]
+            },
+            "labels": [
+              "DF-05"
+            ],
+            "id": "b2c92f03-a354-4fdf-8ae2-8cdd63c16293",
+            "source": {
+              "cell": "96b13f28-dfce-49a4-99ad-800f0831a781",
+              "port": "edd2109c-89ea-424d-a17b-c8b0dfab3562"
+            },
+            "target": {
+              "cell": "fdf316eb-b47c-4e95-baff-785c977b5f53",
+              "port": "99300bd6-0078-4ded-ac56-c34814e7a45f"
+            }
           },
           {
             "position": {
@@ -1970,8 +1990,8 @@
                 "text": "Active\nDirectory"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -2068,12 +2088,41 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "ca94b716-f6a6-43d0-9090-33d9f1b9e4f3",
+                  "title": "Vulnerability scanning",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Systematic enumeration and examination in order to find weaknesses and points where a security vulnerability might exist",
+                  "mitigation": "Strict password policy is in-place to",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -2321,7 +2370,40 @@
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": true,
-              "threats": []
+              "threats": [
+                {
+                  "id": "49804c53-dd16-4b9a-8e18-590de51396f8",
+                  "title": "Inappropriate access to data",
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Collecting accessible data and/or processed output from the application.",
+                  "mitigation": "MS SQL provides granular access to users and administrators.\nAccess is provided based on least-privilege.\nMFA is used to secure access to privileged accounts.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                },
+                {
+                  "id": "262941f8-8fc4-44c6-96a6-b074d038d1f5",
+                  "title": "Vulnerable encryption algorithms",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Out of date encryption algorithms are vulnerable and have known vulnerabilities",
+                  "mitigation": "SQL database encryption is in-use and utilises modern encryption algorithms provided by the vendor.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 4,
+                "denialOfService": 0
+              }
             }
           }
         ]
@@ -2329,6 +2411,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 4
+    "threatTop": 8
   }
 }
