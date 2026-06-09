@@ -43,6 +43,7 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "b2c92f03-a354-4fdf-8ae2-8cdd63c16293",
+                "f48f70bf-9a4a-433e-a31a-15cd93230dbf",
                 "85fd9387-bb3f-41d4-9496-1a69d6d2e8c0"
               ],
               "containedElements": [
@@ -111,7 +112,8 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "b114f781-d2c1-40e7-8365-62ee00cfc95a"
+                "b114f781-d2c1-40e7-8365-62ee00cfc95a",
+                "f48f70bf-9a4a-433e-a31a-15cd93230dbf"
               ],
               "containedElements": [
                 "f51eea5d-6995-4367-b41c-acb83dd15322"
@@ -144,6 +146,7 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "b2c92f03-a354-4fdf-8ae2-8cdd63c16293",
+                "f48f70bf-9a4a-433e-a31a-15cd93230dbf",
                 "85fd9387-bb3f-41d4-9496-1a69d6d2e8c0"
               ],
               "containedElements": [
@@ -260,7 +263,8 @@
               "crossingFlows": [
                 "7a839d07-b7f6-4106-8434-144b476e0049",
                 "f44d03ef-489b-453a-9c9a-e320fd15e781",
-                "f4712c63-4911-40aa-9300-5f177b906937"
+                "f4712c63-4911-40aa-9300-5f177b906937",
+                "f48f70bf-9a4a-433e-a31a-15cd93230dbf"
               ],
               "containedElements": [
                 "a4368978-fcc1-40ff-8ccc-8bdad2670b35"
@@ -283,6 +287,7 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
+            "zIndex": -1,
             "id": "b451fa0e-4bb0-41df-a17a-879b50f89802",
             "data": {
               "type": "tm.BoundaryBox",
@@ -297,8 +302,7 @@
                 "1706db0c-2304-4f0c-adbb-bc95ce758977",
                 "33f11513-8b1b-467a-a8c7-4ae4f2d71780"
               ]
-            },
-            "zIndex": -1
+            }
           },
           {
             "position": {
@@ -1431,119 +1435,66 @@
             "target": {
               "cell": "f0946eed-9e42-40f2-99fb-06e7241a91e6",
               "port": "a25887db-a4b5-443e-bfca-26562cb6aa69"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
             },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF-12",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "HTTPS",
+              "threats": [],
+              "trustBoundaryIds": [
+                "f71ea617-8734-4a6e-8bf4-b46f14c0c9f0",
+                "a8648d8c-7a7d-44bd-a53e-dab195620678",
+                "62160e52-c4dd-42de-a154-14183ab884d4",
+                "aa7656f5-ae8b-44bc-80b8-9dbef11981a1"
+              ]
+            },
+            "labels": [
+              "DF-12"
+            ],
+            "id": "f48f70bf-9a4a-433e-a31a-15cd93230dbf",
+            "source": {
+              "cell": "a4368978-fcc1-40ff-8ccc-8bdad2670b35",
+              "port": "4b35f3b2-ebf3-4f6f-941f-230faaa85c8b"
+            },
+            "target": {
+              "cell": "f51eea5d-6995-4367-b41c-acb83dd15322",
+              "port": "cec97748-9b83-49a7-9c5f-cca010641dd0"
+            },
+            "vertices": [
+              {
+                "x": 760,
+                "y": 590
+              }
+            ],
             "tools": {
               "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
                 "boundary",
                 "button-remove",
                 "vertices",
@@ -1955,6 +1906,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -2038,7 +1990,6 @@
               ]
             },
             "id": "1706db0c-2304-4f0c-adbb-bc95ce758977",
-            "zIndex": 18,
             "data": {
               "type": "tm.Process",
               "name": "Active\nDirectory",
@@ -2078,6 +2029,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 19,
             "ports": {
               "groups": {
                 "top": {
@@ -2161,7 +2113,6 @@
               ]
             },
             "id": "33f11513-8b1b-467a-a8c7-4ae4f2d71780",
-            "zIndex": 19,
             "data": {
               "type": "tm.Store",
               "name": "AD Data",
@@ -2202,6 +2153,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 20,
             "ports": {
               "groups": {
                 "top": {
@@ -2285,7 +2237,6 @@
               ]
             },
             "id": "688173a6-c9ca-4fa8-94fb-6d3da8193e5e",
-            "zIndex": 20,
             "data": {
               "type": "tm.Store",
               "name": "DB Server\nData",
