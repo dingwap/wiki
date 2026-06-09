@@ -42,8 +42,8 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "b2c92f03-a354-4fdf-8ae2-8cdd63c16293",
                 "f48f70bf-9a4a-433e-a31a-15cd93230dbf",
+                "b2c92f03-a354-4fdf-8ae2-8cdd63c16293",
                 "85fd9387-bb3f-41d4-9496-1a69d6d2e8c0"
               ],
               "containedElements": [
@@ -112,8 +112,8 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "b114f781-d2c1-40e7-8365-62ee00cfc95a",
-                "f48f70bf-9a4a-433e-a31a-15cd93230dbf"
+                "f48f70bf-9a4a-433e-a31a-15cd93230dbf",
+                "b114f781-d2c1-40e7-8365-62ee00cfc95a"
               ],
               "containedElements": [
                 "f51eea5d-6995-4367-b41c-acb83dd15322"
@@ -145,8 +145,8 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "b2c92f03-a354-4fdf-8ae2-8cdd63c16293",
                 "f48f70bf-9a4a-433e-a31a-15cd93230dbf",
+                "b2c92f03-a354-4fdf-8ae2-8cdd63c16293",
                 "85fd9387-bb3f-41d4-9496-1a69d6d2e8c0"
               ],
               "containedElements": [
@@ -190,9 +190,9 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "b2c92f03-a354-4fdf-8ae2-8cdd63c16293",
                 "827fe1b9-39d2-4e20-96c9-fba557fef429",
                 "f4712c63-4911-40aa-9300-5f177b906937",
+                "b2c92f03-a354-4fdf-8ae2-8cdd63c16293",
                 "85fd9387-bb3f-41d4-9496-1a69d6d2e8c0"
               ],
               "containedElements": [
@@ -1262,133 +1262,6 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "DF-05",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": true,
-              "isPublicNetwork": true,
-              "protocol": "HTTPS",
-              "threats": [],
-              "trustBoundaryIds": [
-                "f71ea617-8734-4a6e-8bf4-b46f14c0c9f0",
-                "62160e52-c4dd-42de-a154-14183ab884d4",
-                "a77303d1-7aad-40a1-9419-25fb5307ad6b"
-              ]
-            },
-            "labels": [
-              "DF-05"
-            ],
-            "id": "b2c92f03-a354-4fdf-8ae2-8cdd63c16293",
-            "source": {
-              "cell": "96b13f28-dfce-49a4-99ad-800f0831a781",
-              "port": "edd2109c-89ea-424d-a17b-c8b0dfab3562"
-            },
-            "target": {
-              "cell": "fdf316eb-b47c-4e95-baff-785c977b5f53",
-              "port": "99300bd6-0078-4ded-ac56-c34814e7a45f"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "DF-07",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": true,
-              "isPublicNetwork": true,
-              "protocol": "HTTPS",
-              "threats": [
-                {
-                  "id": "669f096a-3fef-4829-9e68-00e4611ff45a",
-                  "title": "Vulnerable transport protocol",
-                  "status": "Mitigated",
-                  "severity": "Medium",
-                  "type": "Information disclosure",
-                  "description": "Older transport protocols are vulnerable and have known vulnerabilities",
-                  "mitigation": "Use up to date cryptography and transport protocols.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 9,
-                  "score": ""
-                }
-              ],
-              "trustBoundaryIds": [
-                "a8648d8c-7a7d-44bd-a53e-dab195620678"
-              ],
-              "threatFrequency": {
-                "tampering": 0,
-                "informationDisclosure": 1,
-                "denialOfService": 0
-              }
-            },
-            "labels": [
-              "DF-07"
-            ],
-            "id": "b114f781-d2c1-40e7-8365-62ee00cfc95a",
-            "source": {
-              "cell": "f51eea5d-6995-4367-b41c-acb83dd15322",
-              "port": "73783c0b-003e-4d16-92f2-a17d88a2193b"
-            },
-            "target": {
-              "cell": "96b13f28-dfce-49a4-99ad-800f0831a781",
-              "port": "07ea2fe7-5f38-4f92-bfdd-75d3f021463f"
-            },
-            "vertices": [
-              {
-                "x": 550,
-                "y": 60
-              },
-              {
-                "x": 270,
-                "y": 60
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
                   "name": "block"
                 },
                 "strokeDasharray": null
@@ -1745,6 +1618,162 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF-05",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "HTTPS",
+              "threats": [
+                {
+                  "id": "fea88518-81e6-4f5b-8f6d-03821903a753",
+                  "title": "Vulnerable transport protocol",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Older transport protocols are vulnerable and have known vulnerabilities",
+                  "mitigation": "Use up to date cryptography and transport protocols",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [
+                "f71ea617-8734-4a6e-8bf4-b46f14c0c9f0",
+                "62160e52-c4dd-42de-a154-14183ab884d4",
+                "a77303d1-7aad-40a1-9419-25fb5307ad6b"
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "DF-05"
+            ],
+            "id": "b2c92f03-a354-4fdf-8ae2-8cdd63c16293",
+            "source": {
+              "cell": "96b13f28-dfce-49a4-99ad-800f0831a781",
+              "port": "edd2109c-89ea-424d-a17b-c8b0dfab3562"
+            },
+            "target": {
+              "cell": "fdf316eb-b47c-4e95-baff-785c977b5f53",
+              "port": "99300bd6-0078-4ded-ac56-c34814e7a45f"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF-07",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "HTTPS",
+              "threats": [
+                {
+                  "id": "669f096a-3fef-4829-9e68-00e4611ff45a",
+                  "title": "Vulnerable transport protocol",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Older transport protocols are vulnerable and have known vulnerabilities",
+                  "mitigation": "Use up to date cryptography and transport protocols.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [
+                "a8648d8c-7a7d-44bd-a53e-dab195620678"
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "DF-07"
+            ],
+            "id": "b114f781-d2c1-40e7-8365-62ee00cfc95a",
+            "source": {
+              "cell": "f51eea5d-6995-4367-b41c-acb83dd15322",
+              "port": "73783c0b-003e-4d16-92f2-a17d88a2193b"
+            },
+            "target": {
+              "cell": "96b13f28-dfce-49a4-99ad-800f0831a781",
+              "port": "07ea2fe7-5f38-4f92-bfdd-75d3f021463f"
+            },
+            "vertices": [
+              {
+                "x": 550,
+                "y": 60
+              },
+              {
+                "x": 270,
+                "y": 60
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
+          },
+          {
             "position": {
               "x": 350,
               "y": 687
@@ -1955,17 +1984,7 @@
                 "x": 390,
                 "y": 390
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "shape": "flow",
@@ -2044,13 +2063,32 @@
               "isEncrypted": true,
               "isPublicNetwork": true,
               "protocol": "HTTPS",
-              "threats": [],
+              "threats": [
+                {
+                  "id": "dfdc277b-367f-4cfc-acec-53da7871ceca",
+                  "title": "Vulnerable transport protocol",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Older transport protocols are vulnerable and have known vulnerabilities",
+                  "mitigation": "Use up to date cryptography and transport protocols",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 21,
+                  "score": ""
+                }
+              ],
               "trustBoundaryIds": [
                 "f71ea617-8734-4a6e-8bf4-b46f14c0c9f0",
                 "dbc98c89-24ff-4778-9ed1-6d351757f750",
                 "62160e52-c4dd-42de-a154-14183ab884d4",
                 "a77303d1-7aad-40a1-9419-25fb5307ad6b"
-              ]
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
             },
             "labels": [
               "DF-06"
@@ -2628,6 +2666,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 19
+    "threatTop": 21
   }
 }
