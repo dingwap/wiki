@@ -412,7 +412,7 @@
             "data": {
               "type": "tm.Actor",
               "name": "External User",
-              "description": "",
+              "description": "External user accessing the website via a modern web browser.",
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -547,7 +547,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Web\nAnalytics",
-              "description": "",
+              "description": "Widgets web analytics platform",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -702,7 +702,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Entra ID\nB2C",
-              "description": "",
+              "description": "Microsoft Entra ID B2C SaaS",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -964,14 +964,14 @@
             "data": {
               "type": "tm.Process",
               "name": "Web\nServer",
-              "description": "",
+              "description": "Apache web server",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
-              "isWebApplication": false,
+              "isWebApplication": true,
               "privilegeLevel": "",
               "threats": [
                 {
@@ -1761,17 +1761,7 @@
                 "x": 270,
                 "y": 60
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "position": {
@@ -1881,7 +1871,7 @@
             "data": {
               "type": "tm.Process",
               "name": "DB\nServer",
-              "description": "",
+              "description": "MS SQL Database, deployed as a resilient cluster.",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -2211,7 +2201,7 @@
             "data": {
               "type": "tm.Actor",
               "name": "Admin\nuser",
-              "description": "",
+              "description": "Admin user using standard build Windows 11 device.",
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
