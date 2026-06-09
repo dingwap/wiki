@@ -1175,104 +1175,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "DF-08",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "DF-08"
-            ],
-            "id": "62b8d594-7264-4438-9aa6-f08246e77a52",
-            "source": {
-              "cell": "1706db0c-2304-4f0c-adbb-bc95ce758977",
-              "port": "d8ecb67c-6e82-4184-9bee-36b352930306"
-            },
-            "target": {
-              "cell": "33f11513-8b1b-467a-a8c7-4ae4f2d71780",
-              "port": "8fe3c0f3-2a45-4040-9be9-454df073ca7b"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "DF-03",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "DF-03"
-            ],
-            "id": "5f348022-3016-416d-9d45-25b210c5a7f6",
-            "source": {
-              "cell": "4e9aff2e-661f-4fab-9ef8-0ebcf9115ccf",
-              "port": "73783c0b-003e-4d16-92f2-a17d88a2193b"
-            },
-            "target": {
-              "cell": "688173a6-c9ca-4fa8-94fb-6d3da8193e5e",
-              "port": "4d23c9be-3d83-4394-accd-3300dfd8c44b"
-            },
-            "vertices": [
-              {
-                "x": 290,
-                "y": 690
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "DF-12",
               "description": "",
               "outOfScope": false,
@@ -1762,6 +1664,114 @@
                 "y": 60
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF-03",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "DF-03"
+            ],
+            "id": "5f348022-3016-416d-9d45-25b210c5a7f6",
+            "source": {
+              "cell": "4e9aff2e-661f-4fab-9ef8-0ebcf9115ccf",
+              "port": "73783c0b-003e-4d16-92f2-a17d88a2193b"
+            },
+            "target": {
+              "cell": "688173a6-c9ca-4fa8-94fb-6d3da8193e5e",
+              "port": "4d23c9be-3d83-4394-accd-3300dfd8c44b"
+            },
+            "vertices": [
+              {
+                "x": 290,
+                "y": 690
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF-08",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "DF-08"
+            ],
+            "id": "62b8d594-7264-4438-9aa6-f08246e77a52",
+            "source": {
+              "cell": "1706db0c-2304-4f0c-adbb-bc95ce758977",
+              "port": "d8ecb67c-6e82-4184-9bee-36b352930306"
+            },
+            "target": {
+              "cell": "33f11513-8b1b-467a-a8c7-4ae4f2d71780",
+              "port": "8fe3c0f3-2a45-4040-9be9-454df073ca7b"
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
