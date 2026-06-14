@@ -203,7 +203,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QBYOPrswse0Ra5k4oHOH-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;fontStyle=1" value="Expert&lt;br&gt;Maturity" vertex="1">
-          <mxGeometry height="30" width="70" x="920" y="278" as="geometry" />
+          <mxGeometry height="30" width="60" x="920" y="278" as="geometry" />
         </mxCell>
         <mxCell id="QBYOPrswse0Ra5k4oHOH-8" edge="1" parent="1" source="QBYOPrswse0Ra5k4oHOH-7" style="endArrow=classic;html=1;rounded=0;entryX=0.986;entryY=0.413;entryDx=0;entryDy=0;strokeWidth=2;dashed=1;entryPerimeter=0;" target="UuBGmUC4EaXC-n2HZkg_-4" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
