@@ -4,8 +4,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="wTARuj8TDDwo2VenQorh-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;div&gt;&lt;b&gt;Timeline to show pace of change&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Last 2-3 years?&lt;/div&gt;&lt;b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;Hype cycle&lt;/b&gt;&lt;div&gt;Launches&lt;/div&gt;&lt;div&gt;Changes in policing&lt;/div&gt;&lt;div&gt;W Mids impact&lt;/div&gt;&lt;div&gt;Recent Derbyshire impact&lt;/div&gt;&lt;div&gt;Police AI launch&lt;/div&gt;&lt;div&gt;Mythos etc&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Trust in AI&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Impacted by incidents&lt;/div&gt;&lt;div&gt;Impacted by news and rumours in policing&lt;/div&gt;" vertex="1">
-          <mxGeometry height="250" width="330" x="160" y="190" as="geometry" />
+        <mxCell id="wTARuj8TDDwo2VenQorh-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;div&gt;&lt;b&gt;Timeline to show pace of change&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Last 2-3 years?&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Showing pace of change.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Impacts to teams and technology in general with lines/shaded blocks.&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;Hype cycle&lt;/b&gt;&lt;div&gt;Launches&lt;/div&gt;&lt;div&gt;Changes in policing&lt;/div&gt;&lt;div&gt;W Mids impact&lt;/div&gt;&lt;div&gt;Recent Derbyshire impact&lt;/div&gt;&lt;div&gt;Police AI launch&lt;/div&gt;&lt;div&gt;Mythos etc&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Trust in AI&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Impacted by incidents&lt;/div&gt;&lt;div&gt;Impacted by news and rumours in policing&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="330" x="40" y="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
