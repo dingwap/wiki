@@ -64,7 +64,7 @@
           <mxGeometry height="30" width="90" x="390" y="250" as="geometry" />
         </mxCell>
         <mxCell id="Boy09DG8aFz-mVBYtH9q-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#2C1DFF;textShadow=0;labelBackgroundColor=default;fontSize=10;" value="ChatGPT&lt;br&gt;Nov. 2022" vertex="1">
-          <mxGeometry height="30" width="60" x="120" y="370" as="geometry" />
+          <mxGeometry height="30" width="60" x="100" y="470" as="geometry" />
         </mxCell>
         <mxCell id="Boy09DG8aFz-mVBYtH9q-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#2C1DFF;textShadow=0;labelBackgroundColor=default;fontSize=10;" value="Mythos &amp;amp; Glasswing&lt;div&gt;April 2026&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="90" x="230" y="290" as="geometry" />
@@ -104,6 +104,24 @@
         </mxCell>
         <mxCell id="oLIR4DMaMiklr4jpZxdl-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#2C1DFF;textShadow=0;labelBackgroundColor=default;fontSize=10;" value="Evidence of AI model collapse?" vertex="1">
           <mxGeometry height="30" width="60" x="540" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="oLIR4DMaMiklr4jpZxdl-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#2C1DFF;textShadow=0;labelBackgroundColor=default;fontSize=10;" value="Gemini 1&lt;div&gt;Dec. 2023&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="oLIR4DMaMiklr4jpZxdl-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#2C1DFF;textShadow=0;labelBackgroundColor=default;fontSize=10;" value="Deepseek&lt;br&gt;Nov. 2023" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="oLIR4DMaMiklr4jpZxdl-9" edge="1" parent="1" source="oLIR4DMaMiklr4jpZxdl-7" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="562" as="sourcePoint" />
+            <mxPoint x="140" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLIR4DMaMiklr4jpZxdl-10" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" target="oLIR4DMaMiklr4jpZxdl-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="430" as="sourcePoint" />
+            <mxPoint x="280" y="380" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
