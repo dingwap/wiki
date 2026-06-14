@@ -11,7 +11,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eTvJB1-pGQamut4pjl48" name="Hype Cycle">
-    <mxGraphModel dx="1544" dy="1858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="579" dy="1214" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,22 +34,22 @@
         </mxCell>
         <mxCell id="Boy09DG8aFz-mVBYtH9q-9" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="80" y="640" as="sourcePoint" />
-            <mxPoint x="80" y="120" as="targetPoint" />
+            <mxPoint x="40" y="640" as="sourcePoint" />
+            <mxPoint x="40" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Boy09DG8aFz-mVBYtH9q-12" connectable="0" parent="Boy09DG8aFz-mVBYtH9q-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;rotation=-90;fontStyle=1" value="Expectations" vertex="1">
+        <mxCell id="Boy09DG8aFz-mVBYtH9q-12" connectable="0" parent="Boy09DG8aFz-mVBYtH9q-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;rotation=-90;fontStyle=1;fontFamily=Tahoma;" value="Expectations" vertex="1">
           <mxGeometry relative="1" x="0.0726" y="-4" as="geometry">
             <mxPoint x="-24" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Boy09DG8aFz-mVBYtH9q-11" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="80" y="640" as="sourcePoint" />
-            <mxPoint x="1120" y="640" as="targetPoint" />
+            <mxPoint x="38" y="640" as="sourcePoint" />
+            <mxPoint x="1118" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Boy09DG8aFz-mVBYtH9q-13" connectable="0" parent="Boy09DG8aFz-mVBYtH9q-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontStyle=1" value="Time" vertex="1">
+        <mxCell id="Boy09DG8aFz-mVBYtH9q-13" connectable="0" parent="Boy09DG8aFz-mVBYtH9q-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontStyle=1;fontFamily=Tahoma;" value="Time" vertex="1">
           <mxGeometry relative="1" x="-0.1" y="-13" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
