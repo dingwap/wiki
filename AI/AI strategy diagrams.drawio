@@ -130,7 +130,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="exXCe-NFCtsMyUmVreKG" name="Trust in AI">
-    <mxGraphModel dx="1366" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="911" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -166,16 +166,16 @@
               <mxPoint x="530" y="560" />
             </Array>
             <mxPoint x="80" y="720" as="sourcePoint" />
-            <mxPoint x="1040" y="480" as="targetPoint" />
+            <mxPoint x="1040" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZyRhBQeI6pgLn687Qcu7-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#2C1DFF;textShadow=0;labelBackgroundColor=default;fontSize=10;" value="West Mids.&lt;br&gt;Jan 2026" vertex="1">
-          <mxGeometry height="30" width="90" x="251" y="520" as="geometry" />
+        <mxCell id="ZyRhBQeI6pgLn687Qcu7-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#2C1DFF;textShadow=0;labelBackgroundColor=default;fontSize=10;" value="West Mids. incident&lt;br&gt;Jan 2026" vertex="1">
+          <mxGeometry height="30" width="90" x="225" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="Nw2P42m-w-hdaMq9hhXc-1" edge="1" parent="1" source="ZyRhBQeI6pgLn687Qcu7-1" style="endArrow=none;html=1;rounded=0;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+        <mxCell id="Nw2P42m-w-hdaMq9hhXc-1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="390" y="563" as="sourcePoint" />
-            <mxPoint x="296" y="680" as="targetPoint" />
+            <mxPoint x="270" y="555" as="sourcePoint" />
+            <mxPoint x="270" y="655" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Nw2P42m-w-hdaMq9hhXc-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#2C1DFF;textShadow=0;labelBackgroundColor=default;fontSize=10;" value="Derbyshire&lt;div&gt;June 2026&lt;/div&gt;" vertex="1">
@@ -187,13 +187,31 @@
             <mxPoint x="420" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nw2P42m-w-hdaMq9hhXc-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#2C1DFF;textShadow=0;labelBackgroundColor=default;fontSize=10;" value="Derbyshire&lt;div&gt;June 2026&lt;/div&gt;" vertex="1">
+        <mxCell id="Nw2P42m-w-hdaMq9hhXc-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#2C1DFF;textShadow=0;labelBackgroundColor=default;fontSize=10;" value="Police AI launch&lt;br&gt;June 2026" vertex="1">
           <mxGeometry height="30" width="90" x="320" y="480" as="geometry" />
         </mxCell>
         <mxCell id="Nw2P42m-w-hdaMq9hhXc-5" edge="1" parent="1" source="Nw2P42m-w-hdaMq9hhXc-4" style="endArrow=none;html=1;rounded=0;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="422" y="600" as="sourcePoint" />
             <mxPoint x="365" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rCWv0nebkQiLc-AowZKd-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#2C1DFF;textShadow=0;labelBackgroundColor=default;fontSize=10;" value="Copilot assured for Policing&lt;br&gt;Oct 2025" vertex="1">
+          <mxGeometry height="30" width="90" x="120" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="rCWv0nebkQiLc-AowZKd-2" edge="1" parent="1" source="rCWv0nebkQiLc-AowZKd-1" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="306" y="560" as="sourcePoint" />
+            <mxPoint x="165" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IUvTx8c8cYbiQVTjJLjz-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#2C1DFF;textShadow=0;labelBackgroundColor=default;fontSize=10;" value="Mythos &amp;amp; Glasswing&lt;br&gt;April 2026" vertex="1">
+          <mxGeometry height="30" width="90" x="270" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="IUvTx8c8cYbiQVTjJLjz-2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="309" y="475" as="sourcePoint" />
+            <mxPoint x="309" y="685" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
