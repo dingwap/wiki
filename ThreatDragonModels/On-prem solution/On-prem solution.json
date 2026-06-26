@@ -999,6 +999,19 @@
                   "new": false,
                   "number": 2,
                   "score": ""
+                },
+                {
+                  "id": "4a2300a5-b226-4e07-9307-a2487448742e",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 22,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
@@ -2368,13 +2381,6 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -2663,6 +2669,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "Erlich Bachmann",
-    "threatTop": 21
+    "threatTop": 22
   }
 }
