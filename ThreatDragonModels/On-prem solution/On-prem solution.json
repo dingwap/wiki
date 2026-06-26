@@ -1761,16 +1761,6 @@
             "target": {
               "cell": "33f11513-8b1b-467a-a8c7-4ae4f2d71780",
               "port": "8fe3c0f3-2a45-4040-9be9-454df073ca7b"
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
             }
           },
           {
@@ -2362,7 +2352,7 @@
                   "status": "Open",
                   "severity": "TBD",
                   "type": "Information disclosure",
-                  "description": "Systematic enumeration and examination in order to find weaknesses and points where a security vulnerability might exist",
+                  "description": "Systematic enumeration and examination in order to find weaknesses and points where a security vulnerability might exist.\n\nMITRE mapping reference?",
                   "mitigation": "Strict password policy is in-place to",
                   "modelType": "STRIDE",
                   "new": false,
@@ -2374,10 +2364,17 @@
                 "spoofing": 0,
                 "tampering": 0,
                 "repudiation": 0,
-                "informationDisclosure": 1,
+                "informationDisclosure": 2,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
