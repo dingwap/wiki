@@ -610,7 +610,7 @@
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
-                "strokeDasharray": null
+                "strokeDasharray": "4 3"
               }
             },
             "visible": true,
@@ -703,9 +703,9 @@
               "type": "tm.Process",
               "name": "Entra ID\nB2C",
               "description": "Microsoft Entra ID B2C SaaS",
-              "outOfScope": false,
+              "outOfScope": true,
               "isTrustBoundary": false,
-              "reasonOutOfScope": "",
+              "reasonOutOfScope": "Already modelled in Project Widgets",
               "hasOpenThreats": false,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
@@ -734,6 +734,13 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
